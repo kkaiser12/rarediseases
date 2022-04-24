@@ -1,10 +1,9 @@
 # Rare Diseases
 
 
-[](https://github.com/kkaiser12/rarediseases/blob/main/screenhot_word2vec_model.png)
+![word2vec model](https://github.com/kkaiser12/rarediseases/blob/main/screenhot_word2vec_model.png)
 
 
-![Alt text](blob/main/screenhot_word2vec_model.png?raw=true "Title")
 
 ## Word2vec
 In our final approach, we encoded the HPO features with a word2vec embedding. 
