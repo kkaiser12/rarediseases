@@ -1,0 +1,24 @@
+---
+# HPO API Configuration File
+description: HPO REST API configuration file
+base_url: https://hpo.jax.org/api/hpo/
+headers:
+  Content-Type: application/json
+endpoints:
+  term_detail:
+    model_url: {hpo_term}
+  term_diseases:
+    model_url: {hpo_term}/diseases
+    parameters:
+      max: -1
+      offset: 0
+  multiple_term_diseases:
+    model_url: term/intersecting
+  search_any:
+    model_url: search/
+    parameters:
+      max: -1
+      offset: 0
+  disease_detail:
+    moderl_url: disease/
+  
